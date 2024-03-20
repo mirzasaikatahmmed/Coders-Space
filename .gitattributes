@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.dll filter=lfs diff=lfs merge=lfs -text
+bin/Debug/net6.0-windows/WebView2/msedge.dll filter=lfs diff=lfs merge=lfs -text
